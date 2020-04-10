@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div style="margin:auto; width: 500px;padding: 20px; border-radius: 5%; border: solid 2px;">
+    <button id="boton">Hace click!</button>
+    
+</div>
+<script>
+    window.onload = () => {
+        let boton = document.getElementById("boton");
+        boton.addEventListener("mousedown", event =>{
+            console.log(event);
+            if (event.button == 0){
+                alert("Click izquierdo");
+            } 
+            else if(event.button == 1){
+                alert("Botón central");
+            }
+            else if(event.button == 2){
+                alert("Click derecho");
+            }
+
+        });
+
+    };
+
+</script>    
+    
+</body>
+</html>

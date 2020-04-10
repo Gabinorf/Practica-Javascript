@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gabino</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="container">
+                <h1>Bloque 2 GifOS</h1>
+            </div>
+        </header>
+        <div class="container">   
+            <section class="main row">    
+                <div class="container col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 19</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="SUMA" onclick="suma()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="PROMEDIO" onclick="promedio()">    
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="PERÍMETRO" onclick="perimetro()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="SUPERFICIE" onclick="superficie()">
+                    <input type="button" class="btn btn-block btn-lg btn-warning" value="NOMBRE" onclick="nombre()">
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="APELLIDO" onclick="apellido()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="NOMBRE Y APELLIDO" onclick="nombreApellido()">
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="DATOS COMPLETOS" onclick="datosCompletos()"> 
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 20</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="NÚMEROS PARES" onclick="numerosPares()">
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="DATOS PERSONALES" onclick="datosPersonales()">    
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="VOTANTES" onclick="votantes()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="CONTRASEÑA" onclick="contraseña()">
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="RESULTADO DIVISIÓN" onclick="resultadoDivision()">
+                    <input type="button" class="btn btn-block btn-lg btn-warning" value="EVALUACIÓN" onclick="evaluacion()">
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="HORA REUNIÓN" onclick="horaReunion()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="DATOS COMPLETOS 2" onclick="datosCompletos2()"> 
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 21</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-warning" value="SUMEMOS//PROMEDIO" onclick="sumemos()">
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="EDADES" onclick="edades()">   
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="PROM. CONDICIONAL" onclick="promCondicional()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="PARES E IMPARES" onclick="paresImpares()">
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="NÚMEROS A LETRAS" onclick="numeroALetra()"> 
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 22</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="PERÍMERTO CUADRADO" onclick="perimetroCuadrado()">
+                    <input type="button" class="btn btn-block btn-lg btn-warning" value="SUP. RECTÁNGULO" onclick="superficie2()">    
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="TRIÁNGULO" onclick="triangulo()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="SUELDO" onclick="sueldo()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="FACTORIAL" onclick="factorial()">
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="MAYOR Y MENOR" onclick="mayorMenor()">
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-sm-6 p-3">
+                    <h2>Clase 23</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="USUARIO Y CONTRASEÑA" onclick="usuarioContraseña()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="DIÁMETRO CÍRCULO" onclick="diametroCirculo()">    
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="PSEUDO A JS" onclick="pseudocodigoJavascript()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="DIAGRAMA A JS" onclick="diagramaJavascript()">
+                </div>
+                <div class="col-sm-6 p-3">
+                    <h2>Clase 24</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="STOP" onclick="nrosarray()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="DIV ARRAY" onclick="dividirarray()">    
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="EXTREMOS" onclick="extremos()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="EXCEPCIONES" onclick="excepciones()">
+                </div>
+            </section>
+
+            <section class="main row">    
+                <div class="container col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 25</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="1er OBJETO" onclick="primerObjeto()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="1ra CLASE" onclick="primeraClase()">    
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="1ros METODOS" onclick="primerosMetodos()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="BASE DATOS ARRAY" onclick="Array_base_datos()">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 26</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="e-Comerce" onclick="eComerce()"> 
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 27</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-warning" value="SCRIPT ASÍNCRONO" onclick="scriptAsincrono()">
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="ARRAY ASÍNCRONO" onclick="arrayAsincrono()">    
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-3">
+                    <h2>Clase 28</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="PROMESAS #1" onclick="primerPromesa()">
+                    <input type="button" class="btn btn-block btn-lg btn-warning" value="PROMESAS #2" onclick="segundaPromesa()">
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-sm-6 p-3">
+                    <h2>Clase 29</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="FETCH #1" onclick="logFetch1()">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="FETCH #2" onclick="logFetch2()">    
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="USER NAME" onclick="UserNameGithub()"> 
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="FOLLOWERS" onclick="followers()">
+                </div>
+                <div class="col-sm-6 p-3">
+                    <h2>Clase 30</h2>
+                    <input type="button" class="btn btn-block btn-lg btn-primary" value="" onclick="">
+                    <input type="button" class="btn btn-block btn-lg btn-danger" value="" onclick="">    
+                    <input type="button" class="btn btn-block btn-lg btn-success" value="" onclick=""> 
+                    <input type="button" class="btn btn-block btn-lg btn-info" value="" onclick="">
+                </div>
+            </section>
+
+        </div>
+        <footer>
+            <div class="container text-center">
+                <h5>Gabino Rodríguez</h5>
+            </div>
+        </footer>
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="strings_y_numbers.js"></script>
+    <script src="booleanos.js"></script> 
+    <script src="estructura_de_un_programa.js"></script> 
+    <script src="pseudocodigo.js"></script>
+    <script src="funciones.js"></script>  
+    <script src="arrays.js"></script>
+    <script src="funciones.js"></script>
+    <script src="workshop_ecomerce.js"></script>
+    <script src="asincronia.js"></script>
+    <script src="promesas.js"></script>
+    <script src="promesas_async_await.js"></script>
+</body>
+</html>

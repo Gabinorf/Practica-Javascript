@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.top, header, .bottom{
+    padding: 30px;
+}
+
+body{
+    background-color: #7E887E;
+}
+
+.icono{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: green;
+    height: 1200px;
+    padding-top: 10px;
+}
+.bottom, header, .top{
+    background-color: #A7FCA7;
+    margin: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header span {
+    max-width: 40%;
+}
+
+.bros{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.mush {
+    width: 600px;
+    height: 300px;
+    border-radius: 10%;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+ ul{
+     display: flex;
+     text-decoration: none;
+     list-style: none;
+ }
+li{
+    padding: 10px;
+}
+
+li a{
+    border-right: solid 2px;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.content-bros{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom span p{
+    text-align: center;
+    font-size: 50px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+header p{
+    padding: 0 20px;
+    font-size: 26px;
+}
+
+h1{
+    padding: 20px;
+    font-size: 50px;
+}
+
+header{
+    padding: 30px;
+}
+
+
